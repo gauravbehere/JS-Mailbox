@@ -1,5 +1,5 @@
 TN:
-SF:app/actions.js
+SF:src/actions.js
 FN:3,(anonymous_0)
 FN:9,(anonymous_1)
 FN:24,(anonymous_2)
@@ -97,7 +97,7 @@ BRF:20
 BRH:18
 end_of_record
 TN:
-SF:app/app.jsx
+SF:src/app.jsx
 FN:13,(anonymous_0)
 FN:40,(anonymous_1)
 FN:62,(anonymous_2)
@@ -143,7 +143,7 @@ BRF:12
 BRH:11
 end_of_record
 TN:
-SF:app/index.js
+SF:src/index.js
 FNF:0
 FNH:0
 LF:0
@@ -152,7 +152,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/mockData.js
+SF:src/mockData.js
 FNF:0
 FNH:0
 DA:1,1
@@ -162,7 +162,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/header/header.jsx
+SF:src/layout/header/header.jsx
 FN:4,(anonymous_0)
 FN:5,(anonymous_1)
 FNF:2
@@ -178,7 +178,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/header/index.js
+SF:src/layout/header/index.js
 FNF:0
 FNH:0
 LF:0
@@ -187,7 +187,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/mail-organization/index.js
+SF:src/layout/mail-organization/index.js
 FNF:0
 FNH:0
 LF:0
@@ -196,7 +196,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/mail-organization/mail-org.jsx
+SF:src/layout/mail-organization/mail-org.jsx
 FN:4,(anonymous_0)
 FN:15,(anonymous_1)
 FN:18,(anonymous_2)
@@ -229,7 +229,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:app/layout/mails-container/index.js
+SF:src/layout/mails-container/index.js
 FNF:0
 FNH:0
 LF:0
@@ -238,7 +238,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/mails-container/mails-container.jsx
+SF:src/layout/mails-container/mails-container.jsx
 FN:5,(anonymous_0)
 FN:20,(anonymous_1)
 FN:29,(anonymous_2)
@@ -290,7 +290,7 @@ BRF:10
 BRH:10
 end_of_record
 TN:
-SF:app/layout/sidebar/index.js
+SF:src/layout/sidebar/index.js
 FNF:0
 FNH:0
 LF:0
@@ -299,7 +299,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/layout/sidebar/sidebar.jsx
+SF:src/layout/sidebar/sidebar.jsx
 FN:25,(anonymous_0)
 FN:31,(anonymous_1)
 FN:39,(anonymous_2)
@@ -333,7 +333,7 @@ BRF:14
 BRH:14
 end_of_record
 TN:
-SF:app/organisms/compose-email/compose-email.jsx
+SF:src/organisms/compose-email/compose-email.jsx
 FN:4,(anonymous_0)
 FN:11,(anonymous_1)
 FN:24,(anonymous_2)
@@ -374,7 +374,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:app/organisms/compose-email/index.js
+SF:src/organisms/compose-email/index.js
 FNF:0
 FNH:0
 LF:0
@@ -383,7 +383,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/organisms/mail-list/index.js
+SF:src/organisms/mail-list/index.js
 FNF:0
 FNH:0
 LF:0
@@ -392,7 +392,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/organisms/mail-list/mail-list.jsx
+SF:src/organisms/mail-list/mail-list.jsx
 FN:6,(anonymous_0)
 FN:11,(anonymous_1)
 FN:25,(anonymous_2)
@@ -425,7 +425,7 @@ BRF:13
 BRH:13
 end_of_record
 TN:
-SF:app/pages/landing-page/index.js
+SF:src/pages/landing-page/index.js
 FNF:0
 FNH:0
 LF:0
@@ -434,7 +434,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/pages/landing-page/landing-page.jsx
+SF:src/pages/landing-page/landing-page.jsx
 FN:8,(anonymous_0)
 FN:13,(anonymous_1)
 FNF:2
@@ -456,7 +456,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:app/pages/login-page/index.js
+SF:src/pages/login-page/index.js
 FNF:0
 FNH:0
 LF:0
@@ -465,7 +465,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:app/pages/login-page/login.jsx
+SF:src/pages/login-page/login.jsx
 FN:5,(anonymous_0)
 FN:12,(anonymous_1)
 FN:15,(anonymous_2)

@@ -1,6 +1,6 @@
 ## JavaScript Mailbox Demo
 <p align='center'>
-    <img src='https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/e-mail3.png'></img>
+    <img src='https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/img/e-mail3.png'/>
 </p>
 <hr/>
 
@@ -42,5 +42,7 @@ Implement a Gmail like email client using localstorage & JavaScript.
 | abc@site.com | iamabc |
 
 #### Running tests
-- npm run test
+- `npm run test`
 - to check coverage, check icov-report/index.html in the coverage folder generated
+- Coverage snapshot
+<img src='https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/img/coverage.png'/>

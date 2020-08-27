@@ -10,7 +10,7 @@ module.exports = {
       '/node_modules/(?!lodash-es).+\\.js$'
   ],
   'roots': [
-      'app'
+      'src'
   ],
   'coverageThreshold': {
       'global': {

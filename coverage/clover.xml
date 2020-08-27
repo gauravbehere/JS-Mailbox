@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598516551026" clover="3.2.0">
-  <project timestamp="1598516551026" name="All files">
+<coverage generated="1598518650054" clover="3.2.0">
+  <project timestamp="1598518650054" name="All files">
     <metrics statements="140" coveredstatements="140" conditionals="83" coveredconditionals="80" methods="43" coveredmethods="43" elements="266" coveredelements="263" complexity="0" loc="140" ncloc="140" packages="9" files="20" classes="20"/>
-    <package name="app">
+    <package name="src">
       <metrics statements="67" coveredstatements="67" conditionals="32" coveredconditionals="29" methods="14" coveredmethods="14"/>
-      <file name="actions.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/actions.js">
+      <file name="actions.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/actions.js">
         <metrics statements="47" coveredstatements="47" conditionals="20" coveredconditionals="18" methods="11" coveredmethods="11"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="12" type="stmt"/>
@@ -54,7 +54,7 @@
         <line num="87" count="1" type="stmt"/>
         <line num="88" count="29" type="stmt"/>
       </file>
-      <file name="app.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/app.jsx">
+      <file name="app.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/app.jsx">
         <metrics statements="19" coveredstatements="19" conditionals="12" coveredconditionals="11" methods="3" coveredmethods="3"/>
         <line num="14" count="15" type="stmt"/>
         <line num="17" count="15" type="stmt"/>
@@ -76,32 +76,32 @@
         <line num="41" count="48" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
       </file>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="mockData.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/mockData.js">
+      <file name="mockData.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/mockData.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="app.layout.header">
+    <package name="src.layout.header">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="header.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/header/header.jsx">
+      <file name="header.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/header/header.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="49" type="stmt"/>
         <line num="6" count="24" type="stmt"/>
       </file>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/header/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/header/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="app.layout.mail-organization">
+    <package name="src.layout.mail-organization">
       <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/mail-organization/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/mail-organization/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="mail-org.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/mail-organization/mail-org.jsx">
+      <file name="mail-org.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/mail-organization/mail-org.jsx">
         <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="24" type="stmt"/>
@@ -113,12 +113,12 @@
         <line num="53" count="192" type="stmt"/>
       </file>
     </package>
-    <package name="app.layout.mails-container">
+    <package name="src.layout.mails-container">
       <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/mails-container/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/mails-container/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="mails-container.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/mails-container/mails-container.jsx">
+      <file name="mails-container.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/mails-container/mails-container.jsx">
         <metrics statements="23" coveredstatements="23" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
         <line num="5" count="1" type="stmt"/>
         <line num="7" count="27" type="stmt"/>
@@ -145,12 +145,12 @@
         <line num="43" count="27" type="stmt"/>
       </file>
     </package>
-    <package name="app.layout.sidebar">
+    <package name="src.layout.sidebar">
       <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="3"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/sidebar/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/sidebar/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="sidebar.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/layout/sidebar/sidebar.jsx">
+      <file name="sidebar.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/layout/sidebar/sidebar.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="3"/>
         <line num="4" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
@@ -159,9 +159,9 @@
         <line num="40" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="app.organisms.compose-email">
+    <package name="src.organisms.compose-email">
       <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
-      <file name="compose-email.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/organisms/compose-email/compose-email.jsx">
+      <file name="compose-email.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/organisms/compose-email/compose-email.jsx">
         <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="14" type="stmt"/>
@@ -180,16 +180,16 @@
         <line num="30" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
       </file>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/organisms/compose-email/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/organisms/compose-email/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="app.organisms.mail-list">
+    <package name="src.organisms.mail-list">
       <metrics statements="5" coveredstatements="5" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/organisms/mail-list/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/organisms/mail-list/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="mail-list.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/organisms/mail-list/mail-list.jsx">
+      <file name="mail-list.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/organisms/mail-list/mail-list.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="27" type="stmt"/>
@@ -198,12 +198,12 @@
         <line num="25" count="120" type="stmt"/>
       </file>
     </package>
-    <package name="app.pages.landing-page">
+    <package name="src.pages.landing-page">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/pages/landing-page/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/pages/landing-page/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="landing-page.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/pages/landing-page/landing-page.jsx">
+      <file name="landing-page.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/pages/landing-page/landing-page.jsx">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="24" type="stmt"/>
@@ -214,12 +214,12 @@
         <line num="17" count="24" type="stmt"/>
       </file>
     </package>
-    <package name="app.pages.login-page">
+    <package name="src.pages.login-page">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/pages/login-page/index.js">
+      <file name="index.js" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/pages/login-page/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="login.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/app/pages/login-page/login.jsx">
+      <file name="login.jsx" path="/Users/gbehere/Documents/GitHub/JS-Mailbox/src/pages/login-page/login.jsx">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="51" type="stmt"/>

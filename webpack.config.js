@@ -1,10 +1,11 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './index.jsx',
   devtool: 'sourcemap',
   output: {
-    path: path.resolve(__dirname, './')
+    path: path.resolve(__dirname, './docs')
   },
   module: {
     rules: [
@@ -21,5 +22,10 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyPlugin([
+      { from: 'index.html', to: '', flatten: false }
+    ])
+  ]
 };

@@ -7,7 +7,7 @@ exports[`Mail Demo Test Suite Should render App component 1`] = `
     data-testid="login-page"
   >
     <img
-      src="../../e-mail3.png"
+      src="https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/img/e-mail3.png"
     />
     <div>
       <input
