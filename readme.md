@@ -1,4 +1,4 @@
-## JavaScript Mailbox Demo
+# JavaScript Mailbox Demo
 <p align='center'>
     <img src='https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/img/e-mail3.png'/>
 </p>
@@ -25,6 +25,12 @@ Implement a Gmail like email client using localstorage & JavaScript.
 - The menu bar on left can exist in a collapsed or an expanded state as demonstrated in the screenshot
 - Rest of the screen can remain non-functional and static as long as look and feel can match
 
+
+#### Demo
+https://gauravbehere.github.io/JS-Mailbox/
+<hr/>
+
+
 #### Steps to run this project
 - Extract the contents into a folder
 - Go to root of the folder
@@ -40,6 +46,8 @@ Implement a Gmail like email client using localstorage & JavaScript.
 | hr@site.com | iamhr |
 | user@site.com | iamuser |
 | abc@site.com | iamabc |
+
+
 
 #### Running tests
 - `npm run test`
