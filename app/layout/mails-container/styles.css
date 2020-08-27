@@ -1,0 +1,141 @@
+.mails-container {
+  flex: 0.75;
+  display: flex;
+  background-color: #fff;
+  color: #676a6c;
+  flex-direction: column;
+}
+
+.mails-topbar{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0 20px;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+}
+
+.mails-topbar-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.mails-topbar-row > div {
+  display: flex;
+}
+
+.mails-topbar-row input {
+  width: 200px;
+  font-size: 16px;
+  font-size: 14px;
+  padding:5px;
+}
+
+.mails-header-inbox{
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.search-button {
+  background: #00b493;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.inbox-controls > div {
+  border: 1px solid #e7eaec;
+  width: auto;
+  display: flex;
+  padding: 10px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.refresh-inbox > i {
+  margin-right: 5px;
+}
+
+.inbox-container{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mail-item {
+  height: 40px;
+  display: flex;
+  border-collapse: collapse;
+  border-top: 1px solid #e7eaec;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #f9f8f8;
+}
+.mail-item.unread {
+  background-color: #FFF;
+}
+
+.mail-item:last-of-type{
+  border-bottom: 1px solid #e7eaec;
+}
+
+.mail-sender {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex: 0.1;
+}
+
+.mail-category {
+  margin-left: 20px;
+  width: auto;
+  border-radius: 3px;
+  height: 6px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #fff;
+  font-weight: 600;
+  width: fit-content;
+}
+.mail-category-container {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.1;
+}
+.mail-subject {
+  margin-left: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex: 0.6;
+}
+
+.mail-attachment{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+}
+
+.mail-time {
+  margin-left: auto;
+  margin-right: 25px;
+  display: flex;
+  flex: 0.1;
+  justify-content: flex-end;
+}
+
+.mail-item-checkbox{
+  display: flex;
+  flex: 0.05;
+}

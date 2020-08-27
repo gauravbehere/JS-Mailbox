@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mail Demo Test Suite Should render App component 1`] = `
+<div>
+  <div
+    class="login-container"
+    data-testid="login-page"
+  >
+    <img
+      src="../../e-mail3.png"
+    />
+    <div>
+      <input
+        data-testid="username"
+        placeholder="Username"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <input
+        data-testid="password"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div>
+      <button
+        data-testid="login-btn"
+      >
+        Submit
+      </button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+      <div>
+        Use one these credentials to login
+      </div>
+      <div>
+        <table
+          border="1"
+        >
+          <thead>
+            <th>
+              Username
+            </th>
+            <th>
+              Password
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                admin@site.com
+              </td>
+              <td>
+                iamadmin
+              </td>
+            </tr>
+            <tr>
+              <td>
+                hr@site.com
+              </td>
+              <td>
+                iamhr
+              </td>
+            </tr>
+            <tr>
+              <td>
+                user@site.com
+              </td>
+              <td>
+                iamuser
+              </td>
+            </tr>
+            <tr>
+              <td>
+                abc@site.com
+              </td>
+              <td>
+                iamabc
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

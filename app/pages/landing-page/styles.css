@@ -1,0 +1,24 @@
+.page-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #eeeeee;
+}
+.right-pane{
+  width: calc(100% - 70px);
+  display: flex;
+  flex-direction: column;
+  transition: ease 0.25s;
+  transition-property: width;
+}
+
+.right-pane.open{
+  width: 80%;
+}
+
+.content-pane{
+  display: flex;
+  height: 100%;
+  padding: 16px;
+  padding-left: 0;
+}

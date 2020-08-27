@@ -1,0 +1,6 @@
+.mail-open {
+  padding: 20px;
+}
+.mail-open > div{
+  border-bottom: 1px solid #EEEEEE;
+}

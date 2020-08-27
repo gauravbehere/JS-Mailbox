@@ -1,0 +1,40 @@
+{
+  "name": "sahajsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --config ./jest.config.js",
+    "build": "webpack",
+    "build-watch": "webpack --progress --colors --display-error-details --debug --display-reasons --watch",
+    "start": "npm run build && serve -l 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-syntax-import-meta": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.3.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "serve": "^11.3.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  }
+}
