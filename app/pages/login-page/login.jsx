@@ -7,7 +7,7 @@ const LoginPage = ({ onLoginClick, loginError }) => {
   const [password, setPassword] = useState('')
   return (
     <div data-testid='login-page' className='login-container'>
-      <img src='../../e-mail3.png'></img>
+      <img src='https://raw.githubusercontent.com/gauravbehere/JS-Mailbox/master/e-mail3.png'></img>
       <div>
         <input data-testid='username' type='text' placeholder='Username' value={username} onChange={event => setUsername(event.target.value)}></input>
       </div>
